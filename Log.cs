@@ -1,5 +1,6 @@
 ﻿using System;
-
+using System.IO;
+using System.Text;
 namespace BankAccount
 {
     public class Log
@@ -15,7 +16,21 @@ namespace BankAccount
             Id = ++LogId;
             date = DateTime.Now;
         }
-        public void Show()
+            
+        public void apptxt()
+        {
+             string fileName = "abc.txt";
+             string path = Path.Combine(Environment.CurrentDirectory,fileName);
+            File.AppendAllText("C:\\Users\\Eliy_jw32\\source\\repos\\ATM\\abc.txt",$@"-----------Log Info----------- 
+Title: {Title} 
+Info: {Info} 
+Date: {date:G}");
+            File.AppendAllText("C:\\Users\\Eliy_jw32\\source\\repos\\ATM\\abc.txt",$"\n");
+
+        }
+         
+        
+            public void Show()          
         {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("-----------Log Info-----------");
@@ -25,4 +40,5 @@ namespace BankAccount
             Console.ResetColor();
         }
     }
+    
 }

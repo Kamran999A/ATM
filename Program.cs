@@ -20,17 +20,17 @@ namespace BankAccount
                 var c5 = new Client() { Name = "Tofiq", Surname = "Bircebala", Age = 19, Mail = "johnjohnlu00@gmail.com", Salary = 2000 };
                 var c23 = new Client() { };
 
-                c1.ClientCard = bank.CreateBankCard(c1, "1", 2);
-                c2.ClientCard = bank.CreateBankCard(c2, "2", 3);
-                c3.ClientCard = bank.CreateBankCard(c3, "3", 1);
-                c4.ClientCard = bank.CreateBankCard(c4, "4", 3);
-                c5.ClientCard = bank.CreateBankCard(c5, "5", 2);
+                c1.ClientCard = bank.CreateBankCard(c1, "1234567887654321", 2);
+                c2.ClientCard = bank.CreateBankCard(c2, "2222222222222222", 3);
+                c3.ClientCard = bank.CreateBankCard(c3, "3333333333333333", 1);
+                c4.ClientCard = bank.CreateBankCard(c4, "4444444444444444", 3);
+                c5.ClientCard = bank.CreateBankCard(c5, "5555555555555555", 2);
 
-                c1.ClientCard.CardNumber = "1";
-                c2.ClientCard.CardNumber = "2";
-                c3.ClientCard.CardNumber = "3";
-                c4.ClientCard.CardNumber = "4";
-                c5.ClientCard.CardNumber = "5";
+                c1.ClientCard.CardNumber = "1111";
+                c2.ClientCard.CardNumber = "2222";
+                c3.ClientCard.CardNumber = "3333";
+                c4.ClientCard.CardNumber = "4444";
+                c5.ClientCard.CardNumber = "5555";
 
 
                 bank.AddClient(c1);

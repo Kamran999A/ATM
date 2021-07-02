@@ -81,20 +81,12 @@ namespace BankAccount
         public Log[] Logs { get; private set; }
         public static int ClientId { get; private set; } = default;
 
-        public string fileName = "1.txt";
+        
         public Client()
         {
             Id = ++ClientId;
         }
-        public void apptxt()
-        {
-         string path = Path.Combine(Environment.CurrentDirectory, fileName);
-            File.AppendAllText(path,$" {Logs}");
-            File.AppendAllText(path,$" {Log.LogId}");
-            File.AppendAllText(path,$" {GetLog(Id)}");
-            File.AppendAllText(path,$" {GetLog(1)}");
-            File.AppendAllText(path,$" {GetLog(ClientId)}");
-        }
+      
 
 
         public void Show()
@@ -113,7 +105,7 @@ namespace BankAccount
         {
             var newLength = (Logs != null) ? Logs.Length + 1 : 1;
             var temp = new Log[newLength];
-
+                log.apptxt();
             if (temp != null)
             {
                 if (Logs != null)
