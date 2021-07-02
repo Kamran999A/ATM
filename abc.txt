@@ -1,0 +1,21 @@
+-----------Log Info----------- 
+Title: Withdraw from John Johnlu 
+Info: Withdraw from 1. Amount 100,00 ₼ 
+Date: 02.07.2021 08:39:39
+-----------Log Info----------- 
+Title: Withdraw from John Johnlu 
+Info: Withdraw from 1. Amount 10,00 ₼ 
+Date: 02.07.2021 08:43:58
+-----------Log Info----------- 
+Title: Withdraw from John Johnlu 
+Info: Withdraw from 1. Amount 100,00 ₼ 
+Date: 02.07.2021 08:44:43
+-----------Log Info----------- 
+Title: Withdraw from John Johnlu 
+Info: Withdraw from 1. Amount 20,00 ₼ 
+Date: 02.07.2021 08:44:56
+-----------Log Info----------- 
+Title: Transaction from John Johnlu 
+Info: Transaction from 1 to 2.
+Amount is 200,00 ₼ 
+Date: 02.07.2021 08:45:04
