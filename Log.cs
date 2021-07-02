@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Text;
 namespace BankAccount
@@ -19,13 +19,22 @@ namespace BankAccount
             
         public void apptxt()
         {
-             string fileName = "abc.txt";
-             string path = Path.Combine(Environment.CurrentDirectory,fileName);
-            File.AppendAllText("C:\\Users\\Eliy_jw32\\source\\repos\\ATM\\abc.txt",$@"-----------Log Info----------- 
+            //string fileName = "abc.txt";
+            //FileInfo f = new FileInfo(fileName);
+            //string fullname = f.FullName;
+            
+
+            //string fileName = "abc.txt";
+             //string path = Path.Combine(Environment.CurrentDirectory,fileName);
+             //string path = Path.GetFullPath(fileName); 
+
+
+            // Wtrite own Path from abc.txt file please
+            File.AppendAllText("C:\\Users\\Eliy_jw32\\source\\repos\\Cehd\\Cehd\\abc.txt", $@"-----------Log Info----------- 
 Title: {Title} 
 Info: {Info} 
 Date: {date:G}");
-            File.AppendAllText("C:\\Users\\Eliy_jw32\\source\\repos\\ATM\\abc.txt",$"\n");
+            File.AppendAllText("C:\\Users\\Eliy_jw32\\source\\repos\\Cehd\\Cehd\\abc.txt", $"\n");
 
         }
          
